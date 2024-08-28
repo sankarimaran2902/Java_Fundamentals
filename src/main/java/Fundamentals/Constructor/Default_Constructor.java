@@ -6,7 +6,7 @@ public class Default_Constructor
     {
         System.out.println("Hello There....");
     }
-    public Default_Constructor()
+    public Default_Constructor()                       //Constructor Declared
     {
         System.out.println("This is Default Constructor");
     }
