@@ -13,15 +13,15 @@ public class Car_Abstractionaccess extends Car_Abstraction
     }
 
     @Override
-    public void engine() {
-      System.out.println("Rotated to drive the car and automatically get lubricated");
+    public void clutch() {
+        System.out.println("Allowing the Driver to change the gears");
     }
     public static void main(String[] args)
     {
         Car_Abstractionaccess ca=new Car_Abstractionaccess();
         ca.accelerator();
         ca.brake();
-        ca.engine();
+        ca.clutch();
         ca.gear();
     }
 }
