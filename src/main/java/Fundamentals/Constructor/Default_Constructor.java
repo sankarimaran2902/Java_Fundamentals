@@ -14,6 +14,7 @@ public class Default_Constructor
     {
         //classname objectname= new constructorname();
         Default_Constructor dc=new Default_Constructor();
+        dc.hello();
     }
 }
 

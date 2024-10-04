@@ -6,12 +6,12 @@ public class StringBuffer1
 {
    StringBuffer ss=new StringBuffer("Valli");
    //Append
-    System.out.println(ss);
-    System.out.println(ss.append("Sivasankari"));
+    System.out.println(ss);//valli
+    System.out.println(ss.append("Sivasankari"));//Append Means joins two string(First-Valli ;next-Sivasankari=ValliSivasankari)
     //Insert
-    System.out.println(ss.insert(5,"Saranya"));
+    System.out.println(ss.insert(5,"Saranya"));//End of valli '5' index insert Saranya=ValliSaranyaSivasankari
     //Replace
-    ss.replace(5,6,"Shobana");
+    ss.replace(5,6,"Sobana");
     System.out.println(ss);
     //Delete
     ss.delete(1,3);

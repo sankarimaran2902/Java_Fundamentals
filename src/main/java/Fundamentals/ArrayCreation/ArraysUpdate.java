@@ -10,6 +10,7 @@ public class ArraysUpdate
         System.out.println("Before Update Of Array:"+Arrays.toString(Details));
         Scanner scan=new Scanner(System.in);
         System.out.println("Total Length of Array :"+(Details.length-1));
+        System.out.println("Enter the Index Within the limit:");
         int index=scan.nextInt();
         System.out.println("You are Selected Position "+index +"Position values " +Details[index]);
         System.out.println("Please Enter New Name:");

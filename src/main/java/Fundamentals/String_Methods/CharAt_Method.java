@@ -8,6 +8,6 @@ public class CharAt_Method
         System.out.println(fullName);
         //charAt()
         String nickName="Sivasankari";
-        System.out.println(nickName.charAt(0));
+        System.out.println("Nick Name for Sivasankari :"+nickName.charAt(0));
     }
 }

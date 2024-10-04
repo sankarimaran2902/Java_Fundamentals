@@ -11,7 +11,6 @@ public class DressShopAccess
             ds.setDressSection("Female");
             ds.setDressPrice(1500);
             System.out.println("Dress Id:"+ds.getDressId()+"\n"+"Dress Name:"+ds.getDressName()+"\n"+"Dress Category:"+ds.getDressCategory()+"\n"+"Dress Section:"+ds.getDressSection()+"\n"+"Dress Price:"+ds.getDressPrice());
-
         }
-    }
+}
 
